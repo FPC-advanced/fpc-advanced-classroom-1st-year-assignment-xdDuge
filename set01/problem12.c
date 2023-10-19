@@ -72,10 +72,10 @@ Complex add_n_complex(int n, Complex c[n])
     return sum;
 }
 
-void output(int n, Complex c[n], Complex result)
+void output(int n, Complex c[n], Complex res)
 {
     printf("Sum of %d complex numbers:\n", n);
-    for (int i = 0; i < n; i++)
+    for (int i=0;i<n;i++)
     {
         printf("%.2f + %.2fi ", c[i].real, c[i].img);
         if (i < n - 1) 
