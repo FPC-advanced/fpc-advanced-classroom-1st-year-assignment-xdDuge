@@ -9,7 +9,7 @@ void input_two_strings(char *string1, char *string2);
 int stringcompare(char *string1, char *string2);
 void output(char *string1, char *string2,int result);
 
-int main() 
+int main()
 {
     char str1[100], str2[100];
     input_two_strings(str1, str2);
@@ -26,7 +26,7 @@ void input_two_strings(char *str1, char *str2)
     scanf("%s", str2);
 }
 
-int stringcompare(char *str1, char *str2) 
+int stringcompare(char *str1, char *str2)
 {
     return strcmp(str1, str2);
 }
