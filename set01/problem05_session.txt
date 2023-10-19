@@ -23,3 +23,8 @@ PS C:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-class
 
 PS C:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1> git push
 
+PS C:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231019161417
+**********************
