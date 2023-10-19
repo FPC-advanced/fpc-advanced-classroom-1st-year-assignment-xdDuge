@@ -31,7 +31,7 @@ int stringcompare(char *str1, char *str2)
     return strcmp(str1, str2);
 }
 
-void output(char *str1, char *str2, int result) 
+void output(char *str1, char *str2, int result)
 {
     if (result < 0) {
         printf("%s is less than %s\n", str1, str2);
