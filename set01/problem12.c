@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-struct _complex 
+struct _complex
 {
     float real, img;
 };
