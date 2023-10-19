@@ -17,3 +17,9 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem05_session.txt
+PS C:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1> git add .
+
+PS C:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1> git commit -m "committed 10/19/2023, 4:11:19 PM"
+
+PS C:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1> git push
+
