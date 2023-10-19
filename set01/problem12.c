@@ -56,10 +56,10 @@ void input_n_complex(int n, Complex c[n])
 
 Complex add(Complex a, Complex b)
 {
-    Complex result;
-    result.real = a.real + b.real;
-    result.img = a.img + b.img;
-    return result;
+    Complex res;
+    res.real = a.real + b.real;
+    res.img = a.img + b.img;
+    return res;
 }
 
 Complex add_n_complex(int n, Complex c[n]) 
