@@ -86,5 +86,5 @@ void output(int n, Complex c[n], Complex res)
             printf("= ");
         }
     }
-    printf("%.2f + %.2fi\n", result.real, result.img);
+    printf("%.2f + %.2fi\n", res.real, res.img);
 }
