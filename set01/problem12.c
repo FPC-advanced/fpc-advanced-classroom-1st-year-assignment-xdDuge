@@ -27,7 +27,7 @@ int main()
     return 0;
 }
 
-int get_n() 
+int get_n()
 {
     int n;
     printf("Enter the value of n: ");
@@ -35,7 +35,7 @@ int get_n()
     return n;
 }
 
-Complex input_complex() 
+Complex input_complex()
 {
     Complex c;
     printf("Enter the real part: ");
@@ -47,7 +47,7 @@ Complex input_complex()
 
 void input_n_complex(int n, Complex c[n])
 {
-    for (int i = 0; i < n; i++) 
+    for (int i = 0; i < n; i++)
     {
         printf("Complex number %d:\n", i + 1);
         c[i] = input_complex();
