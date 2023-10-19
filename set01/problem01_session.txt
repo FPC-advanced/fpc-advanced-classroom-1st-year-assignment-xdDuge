@@ -16,3 +16,8 @@ WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
+Transcript started, output file is c:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem01_session.txt
+PS C:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1> gcc -g "c:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem01.c" -o "c:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem01.exe" 2>&1
+
+PS C:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1> "c:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem01.exe"
+c:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem01.exe
