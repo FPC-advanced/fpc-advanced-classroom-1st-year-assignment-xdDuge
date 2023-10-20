@@ -20,17 +20,16 @@ int main(){
 Triangle input_triangle(){
 	Triangle T1;
 	printf("Enter The base value: \n");
-	scanf("%d",&T1.base);
+	scanf("%f",&T1.base);
 	printf("Enter The altitude value: \n");
-	scanf("%d",&T1.altitude);
+	scanf("%f",&T1.altitude);
 	return T1;
 }
 
-void find_area(Triangle *t1){
-	float area;
-	area = 0.5 * t1.base * t1.altitude;
+void find_area(Triangle *t){
+	t->area = 0.5 * t->base * t->altitude;
 }
 
 void output(Triangle t){
-
-} 
+	printf("The area of the triangle with base %f and height %f is %f",t.base,t.altitude,t.area);
+}
