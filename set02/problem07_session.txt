@@ -36,3 +36,20 @@ At line:1 char:1
     + CategoryInfo          : ObjectNotFound: (c:\Users\Aashish:String) [], CommandNotFoundException
     + FullyQualifiedErrorId : CommandNotFoundException
 
+PS C:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1> c:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem07.c
+c:\Users\Aashish : The term 'c:\Users\Aashish' is not recognized as the name of a cmdlet, function, script file, or 
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try 
+again.
+At line:1 char:1
++ c:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanc ...
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\Aashish:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+c:\Users\Aashish : The term 'c:\Users\Aashish' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ c:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanc ...
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\Aashish:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
