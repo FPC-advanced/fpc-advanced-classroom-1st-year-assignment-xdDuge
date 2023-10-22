@@ -20,7 +20,7 @@ int main()
     Point p1,p2;
     p1 = input_point();
     p2 = input_point();
-
+    
 }
 
 Point input_point()
@@ -32,4 +32,5 @@ Point input_point()
     scanf("%f",&p.y);
     return p;
 }
+
 
