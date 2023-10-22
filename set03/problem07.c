@@ -33,6 +33,9 @@ Point input_point()
     return p;
 }
 
-
+Line input_line()
+{
+    
+}
 
 
