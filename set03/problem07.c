@@ -29,6 +29,7 @@ Point input_point()
     printf("Enter the absicca value of the point : ");
     scanf("%f",&p.x);
     printf("Enter the ordinate value of the point : ");
-    scanf("%f",&p.x);
+    scanf("%f",&p.y);
+    return p;
 }
 
