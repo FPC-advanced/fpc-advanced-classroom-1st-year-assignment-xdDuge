@@ -18,10 +18,11 @@ void output(Line l);
 int main()
 {
     Point p1,p2;
+    Line l;
     p1 = input_point();
     p2 = input_point();
-    
-    
+    l = input_line();
+
 }
 
 Point input_point()
