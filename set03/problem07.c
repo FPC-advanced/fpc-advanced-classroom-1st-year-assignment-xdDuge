@@ -37,7 +37,8 @@ Point input_point()
 
 Line input_line()
 {
-    Line 
+    Line l;
+    
 }
 
 
