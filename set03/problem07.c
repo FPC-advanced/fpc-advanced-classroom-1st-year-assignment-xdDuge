@@ -28,5 +28,7 @@ Point input_point()
     Point p;
     printf("Enter the absicca value of the point : ");
     scanf("%f",&p.x);
+    printf("Enter the absicca value of the point : ");
+    scanf("%f",&p.x);
 }
 
