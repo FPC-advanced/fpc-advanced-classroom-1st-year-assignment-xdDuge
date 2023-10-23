@@ -36,3 +36,8 @@ At line:1 char:1
     + CategoryInfo          : ObjectNotFound: (c:\Users\Aashish:String) [], CommandNotFoundException
     + FullyQualifiedErrorId : CommandNotFoundException
 
+PS C:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1> Start-Transcript -Path "c:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem01_session.txt"
+**********************
+Windows PowerShell transcript end
+End time: 20231024024902
+**********************
