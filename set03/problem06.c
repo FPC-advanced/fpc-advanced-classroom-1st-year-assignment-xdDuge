@@ -1,4 +1,4 @@
-// Write a program to find the index of a substring of a string
+// Write a program to find the index of a substring in a string
 
 #include <stdio.h>
 
@@ -25,7 +25,7 @@ int sub_str_index(char* string, char* substring)
 {
     int m;
     for(m=0;substring[m]!='\0';m++);
-    int i,j,l,k;
+    int j,l;
     for(int i=0,k=0;string[i]!='\0';i++)
     {
         int a=0;
