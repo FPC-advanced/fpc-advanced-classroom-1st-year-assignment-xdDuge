@@ -2,12 +2,14 @@
 
 #include<stdio.h>
 
-struct Complexno
+struct Complexno Complex
 {
     float real;
     float img;
 };
-Complex input_complex();
+Complex input_complex(){
+    
+}
 Complex add_complex(Complex a, Complex b);
 void output(Complex a, Complex b, Complex sum);
 
