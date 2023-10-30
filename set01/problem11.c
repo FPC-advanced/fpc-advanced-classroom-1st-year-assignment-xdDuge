@@ -35,6 +35,7 @@ Complex add_complex(Complex C1, Complex C2)
     Complex Sum;
     Sum.real= C1.real + C2.real;
     Sum.img= C1.img + C2.img;
+    return Sum;
 }
 void output(Complex C1,Complex C2,Complex Sum)
 {
