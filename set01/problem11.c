@@ -2,11 +2,12 @@
 
 #include<stdio.h>
 
-typedef struct Complexno
+struct Complexno
 {
     float real;
     float img;
-}Complex;
+};
+typedef struct 
 
 Complex input_complex();
 Complex add_complex(Complex a, Complex b);
