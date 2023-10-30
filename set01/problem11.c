@@ -23,12 +23,12 @@ int main()
 }
 Complex input_complex()
 {
-    Complex C1;
+    Complex C;
     printf("Enter the Real part of the number: \n");
-    scanf("%f",&C1.real);
+    scanf("%f",&C.real);
     printf("Enter the Imaginary part of the number: \n");
-    scanf("%f",&C1.img); 
-    return C1;  
+    scanf("%f",&C.img); 
+    return C;  
 }
 Complex add_complex(Complex C1, Complex C2)
 {
