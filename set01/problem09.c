@@ -1,7 +1,6 @@
 //9. Write a C program to find the [square root](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method) of a number.
 
 #include<stdio.h>
-#include<math.h>
 
 float input();
 float square_root(float n);
@@ -23,9 +22,11 @@ float input()
 }
 float square_root(float n)
 {
-    float sqrt;
-    sqrt = pow(n,0.5);
-    return sqrt;
+    float i;
+
+    for(i=0 ; i*i<n ; i+=0.000001);    
+    return i;
+    
 }
 void output(float n, float sqrroot)
 {
