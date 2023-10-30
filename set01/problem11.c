@@ -27,7 +27,8 @@ Complex input_complex()
     printf("Enter the Real part of the number: \n");
     scanf("%f",&C1.real);
     printf("Enter the Imaginary part of the number: \n");
-    scanf("%f",&C1.img);   
+    scanf("%f",&C1.img); 
+    return C1;  
 }
 Complex add_complex(Complex C1, Complex C2)
 {
