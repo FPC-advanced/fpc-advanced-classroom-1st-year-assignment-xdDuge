@@ -30,7 +30,7 @@ int main()
 int get_n()
 {
     int n;
-    printf("Enter the value of n: ");
+    printf("Enter the number of values: ");
     scanf("%d", &n);
     return n;
 }
