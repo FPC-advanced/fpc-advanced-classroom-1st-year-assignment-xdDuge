@@ -25,3 +25,7 @@ void input(int *n1, int *d1, int *n2, int *d2)
     scanf("%d",d2);
 }
 
+void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
+{
+    
+}
