@@ -35,5 +35,5 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
 
 void output(int num1, int den1, int num2, int den2, int res_num, int res_den)
 {
-    printf("The sum of two fractions %d/%d and %d/%d is = %d/%d",)
+    printf("The sum of two fractions %d/%d and %d/%d is = %d/%d",num1,den1,num2,den2,res_num,res_den);
 }
