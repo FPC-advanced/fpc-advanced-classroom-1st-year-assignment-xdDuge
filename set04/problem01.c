@@ -15,5 +15,5 @@ int main()
 
 void input(int *n1, int *d1, int *n2, int *d2)
 {
-    
+    printf()
 }
