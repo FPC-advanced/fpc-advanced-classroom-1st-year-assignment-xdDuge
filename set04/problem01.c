@@ -19,4 +19,9 @@ void input(int *n1, int *d1, int *n2, int *d2)
     scanf("%d",n1);
     printf("Enter the denominator of the first number: ");
     scanf("%d",d1);
+    printf("Enter the numerator of the second number: ");
+    scanf("%d",n2);
+    printf("Enter the denominator of the second number: ");
+    scanf("%d",d2);
 }
+
