@@ -17,4 +17,6 @@ void input(int *n1, int *d1, int *n2, int *d2)
 {
     printf("Enter the numerator of the first number: ");
     scanf("%d",n1);
+    printf("Enter the denominator of the first number: ");
+    scanf("%d",d1);
 }
