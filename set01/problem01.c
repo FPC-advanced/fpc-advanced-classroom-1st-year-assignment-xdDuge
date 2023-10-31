@@ -5,4 +5,5 @@
 int main()
 {
     printf("My name is Aasish");
+    return 0;
 }
