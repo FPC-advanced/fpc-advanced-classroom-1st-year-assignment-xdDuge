@@ -30,5 +30,10 @@ void input(int *n1, int *d1, int *n2, int *d2)
 void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
 {
     res_num = num1 + num2;
-    res_den = 
+    res_den = den1 + den2;
+}
+
+void output(int num1, int den1, int num2, int den2, int res_num, int res_den)
+{
+    printf()
 }
