@@ -36,7 +36,7 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
 void output(int num1, int den1, int num2, int den2, int res_num, int res_den)
 {
     int hcf;
-    for(int i = 1;i<=res_num && i<=res_den;i++)
+    for(int i = 1;i<=res_num && i<=res_den;i++)// to lower them down to their simplest form
     {
         if(res_num%i ==0 && res_den%i ==0)
         hcf = i;
