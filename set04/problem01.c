@@ -31,10 +31,10 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
 {
     *res_num = (num1*den2) + (num2*den1);
     *res_den = den1*den2;//simple criss cross method
-    int hcf = 
 }
 
 void output(int num1, int den1, int num2, int den2, int res_num, int res_den)
 {
+    for(i = 1;)
     printf("The sum of two fractions %d/%d and %d/%d is = %d/%d",num1,den1,num2,den2,res_num,res_den);
 }
