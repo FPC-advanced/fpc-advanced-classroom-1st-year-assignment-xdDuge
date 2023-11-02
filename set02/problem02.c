@@ -23,16 +23,19 @@ int input_side(){
 }
 
 int check_scalene(int a, int b, int c){
-    if(a!=b && a!=c){
+    if(a!=b && a!=c)
+    {
         return 2;
     }
-    else{
+    else
+    {
         return 3;
     }
 }
 
 void output(int isscalene){
-    if(isscalene == 2){
+    if(isscalene == 2)
+    {
         printf("The triangle is scalene");
     }
     else
