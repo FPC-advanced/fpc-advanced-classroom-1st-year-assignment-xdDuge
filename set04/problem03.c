@@ -13,11 +13,13 @@ int main()
     ncr = nCr(n,r);
     output(n,r,ncr);
 }
+
 void input_n_and_r(int *n,int *r)
 {
     printf("Enter the values of n and r : \n");
     scanf("%d %d",n,r);
 }
+
 int nCr(int n, int r)
 {
     int nfac=1,rfac=1,fac=1;
@@ -36,6 +38,7 @@ int nCr(int n, int r)
     int ncr = nfac/(rfac*fac);
     return ncr;
 }
+
 void output(int n, int r, int result)
 {
     printf("The nCr of %dC%d is : %d",n,r,result);
