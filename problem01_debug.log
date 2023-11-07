@@ -1,0 +1,20 @@
++r
+Starting program:  
+No executable specified, use `target exec'.
++target exec problem01
+problem01: No such file or directory.
++target exec problem01
+problem01: No such file or directory.
++target exec problem01.c
+problem01.c: No such file or directory.
++gdb ./problem01
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem01_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem01_debug.log.
++set trace-commands on
++q

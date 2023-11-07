@@ -24,9 +24,8 @@ float square_root(float n)
 {
     float i;
 
-    for(i=0 ; i*i<n ; i+=0.000001);    
+    for(i=1.414 ; i*i<n ; i+=0.000001);    
     return i;
-    
 }
 void output(float n, float sqrroot)
 {
