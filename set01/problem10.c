@@ -52,5 +52,3 @@ void output(char *str1, char *str2, int result)
         printf("%s is equal to %s\n", str1, str2);
     }
 }
-
-//Do this without using strcmp...
