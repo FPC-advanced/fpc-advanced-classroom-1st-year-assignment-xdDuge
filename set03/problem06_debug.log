@@ -1,0 +1,112 @@
++b 37
+Breakpoint 1 at 0x401570: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem06.c, line 37.
++b 49b 49
+Function "49b 49" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) Please answer y or [n].
+Make breakpoint pending on future shared library load? (y or [n]) +b 49
+Breakpoint 2 at 0x40159a: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem06.c, line 49.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03/./problem06.exe 
+[New Thread 16536.0x2620]
+[New Thread 16536.0x1624]
+
+Breakpoint 1, sub_str_index (string=0x61feb8 "abcdef", substring=0x61fe54 "ef")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem06.c:37
+37	                break;
++print i
+$1 = 0
++print j
+$2 = 0
++print subl
+$3 = 2
++print strl
+$4 = 6
++print string
+$5 = 0x61feb8 "abcdef"
++print substring
+$6 = 0x61fe54 "ef"
++n
+40	        if(j == subl){
++n
+30	    for (int i = 0; i<= strl - subl; i++)
++n
+33	        for(j=0; j< subl; j++)
++n
+35	            if (string[i+j] != substring[j])
++n
+
+Breakpoint 1, sub_str_index (string=0x61feb8 "abcdef", substring=0x61fe54 "ef")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem06.c:37
+37	                break;
++n
+40	        if(j == subl){
++n
+30	    for (int i = 0; i<= strl - subl; i++)
++n
+33	        for(j=0; j< subl; j++)
++n
+35	            if (string[i+j] != substring[j])
++n
+
+Breakpoint 1, sub_str_index (string=0x61feb8 "abcdef", substring=0x61fe54 "ef")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem06.c:37
+37	                break;
++n
+40	        if(j == subl){
++n
+30	    for (int i = 0; i<= strl - subl; i++)
++n
+33	        for(j=0; j< subl; j++)
++n
+35	            if (string[i+j] != substring[j])
++n
+
+Breakpoint 1, sub_str_index (string=0x61feb8 "abcdef", substring=0x61fe54 "ef")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem06.c:37
+37	                break;
++n
+40	        if(j == subl){
++n
+30	    for (int i = 0; i<= strl - subl; i++)
++n
+33	        for(j=0; j< subl; j++)
++n
+35	            if (string[i+j] != substring[j])
++n
+33	        for(j=0; j< subl; j++)
++n
+35	            if (string[i+j] != substring[j])
++n
+33	        for(j=0; j< subl; j++)
++n
+40	        if(j == subl){
++n
+41	            return i;
++n
+46	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem06.c:16
+16	    output(a,b,index);
++n
+
+Breakpoint 2, output (string=0x61feb8 "abcdef", substring=0x61fe54 "ef", index=4)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem06.c:49
+49	    if(index!= -4){
++n
+50	        printf("The index of %s in %s is %d \n",substring,string,index);
++print index
+$7 = 4
++n
+55	}+n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem06.c:17
+17	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 16536) exited normally]
++q
