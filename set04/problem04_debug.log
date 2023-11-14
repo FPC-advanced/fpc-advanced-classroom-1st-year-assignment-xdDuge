@@ -18,3 +18,28 @@ $2 = 2
 $3 = 12
 +print a[3]
 $4 = 45
++print [2]
+A syntax error in expression, near `[2]'.
++print a[2]
+$5 = 34
++print a[1]
+$6 = 23
++n
+57	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem04.c:19
+19	    output(x,res);
++n
+20	}
++finish
+"finish" not meaningful in the outermost frame.
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 6808) exited normally]
++q
