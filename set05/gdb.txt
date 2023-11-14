@@ -1,0 +1,32 @@
++set logging file problem01_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++b 39
+Breakpoint 1 at 0x40153c: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem01.c, line 39.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05/./problem01.exe 
+[New Thread 9164.0x1e8]
+[New Thread 9164.0x29fc]
+
+Breakpoint 1, dist (p1=..., p2=..., res=0x61ff0c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem01.c:39
+39	    *res = sqrt(pow(p2.x - p1.x,2)+pow(p2.y - p1.y,2));
++print &res
+$1 = (float **) 0x61fef0
++print *res
+$2 = 5.88710568e-039
++print res
+$3 = (float *) 0x61ff0c
++n
+40	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem01.c:24
+24	    output(p1,p2,res); 
++n
+25	}
++n
+0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 9164) exited normally]
++q
