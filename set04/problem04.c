@@ -13,7 +13,7 @@ int main()
     int n,x;
     n = input_degree();
     float a[n+1];
-    input_coefficients(n,a);
+    input_coefficients(n+1,a);
     x = input_x();
     float res = evaluate_polynomial(n,a,x);
     output(x,res);
