@@ -1,0 +1,167 @@
++b 85
+Breakpoint 1 at 0x40168b: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c, line 85.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04/./problem08.exe 
+[New Thread 16004.0x3980]
+[New Thread 16004.0x417c]
+
+Breakpoint 1, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:85
+85	        sum = add_fractions(sum,f[i]);
++n
+83	    for(int i=0;i<n;i++)
++n
+
+Breakpoint 1, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:85
+85	        sum = add_fractions(sum,f[i]);
++n
+83	    for(int i=0;i<n;i++)
++n
+
+Breakpoint 1, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:85
+85	        sum = add_fractions(sum,f[i]);
++n
+83	    for(int i=0;i<n;i++)
++break
+Breakpoint 2 at 0x4016bf: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c, line 83.
++n
+
+Breakpoint 1, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:85
+85	        sum = add_fractions(sum,f[i]);
++n
+
+Breakpoint 2, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:83
+83	    for(int i=0;i<n;i++)
++n
+
+Breakpoint 1, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:85
+85	        sum = add_fractions(sum,f[i]);
++n
+
+Breakpoint 2, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:83
+83	    for(int i=0;i<n;i++)
++exit
+Undefined command: "exit".  Try "help".
++goto 92
+goto-bookmark: no bookmark found for ''.
++b 92
+Breakpoint 3 at 0x4016d9: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c, line 92.
++goto 92
+goto-bookmark: no bookmark found for ''.
++break
+Note: breakpoint 2 also set at pc 0x4016bf.
+Breakpoint 4 at 0x4016bf: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c, line 83.
++n
+
+Breakpoint 1, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:85
+85	        sum = add_fractions(sum,f[i]);
++n
+
+Breakpoint 2, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:83
+83	    for(int i=0;i<n;i++)
++n
+
+Breakpoint 1, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:85
+85	        sum = add_fractions(sum,f[i]);
++n
+
+Breakpoint 2, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:83
+83	    for(int i=0;i<n;i++)
++n
+
+Breakpoint 1, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:85
+85	        sum = add_fractions(sum,f[i]);
++n
+
+Breakpoint 2, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:83
+83	    for(int i=0;i<n;i++)
++n
+
+Breakpoint 1, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:85
+85	        sum = add_fractions(sum,f[i]);
++n
+
+Breakpoint 2, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:83
+83	    for(int i=0;i<n;i++)
++n
+
+Breakpoint 1, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:85
+85	        sum = add_fractions(sum,f[i]);
++n
+
+Breakpoint 2, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:83
+83	    for(int i=0;i<n;i++)
++n
+
+Breakpoint 1, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:85
+85	        sum = add_fractions(sum,f[i]);
++n
+
+Breakpoint 2, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:83
+83	    for(int i=0;i<n;i++)
++n
+
+Breakpoint 1, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:85
+85	        sum = add_fractions(sum,f[i]);
++n
+
+Breakpoint 2, add_n_fractions (n=12, f=0x61fe7c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:83
+83	    for(int i=0;i<n;i++)
++n
+87	    return sum;
++n
+88	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:25
+25	    output(n,sum);
++n
+
+Breakpoint 3, output (n=12, sum=...)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:92
+92	    printf("The sum of the %d fractions is %d/%d.",n,sum.num,sum.den);
++finishfinish
+Undefined command: "finishfinish".  Try "help".
++finish
+Run till exit from #0  output (n=12, sum=...)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:92
+0x00401505 in main ()
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem08.c:25
+25	    output(n,sum);
++q
+A debugging session is active.
+
+	Inferior 1 [process 16004] will be killed.
+
+Quit anyway? (y or n) Not confirmed.
++n
+26	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 16004) exited normally]
++q
