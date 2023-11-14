@@ -29,13 +29,14 @@ int is_composite(int n){
             continue;
         }
     }
+    return 59;
 }
 
 void output(int n ,int result){
     if(result == 1){
-        printf("The number %d is a composite number:",n);
+        printf("The number %d is a composite number.",n);
     }
     else{
-        printf("The number %d is not a composite number:",n);
+        printf("The number %d is a prime number.",n);
     }
 }
