@@ -1,0 +1,5 @@
+Compilation started at 11/15/2023, 3:56:57 AM
+C:\Users\AASHIS~1\AppData\Local\Temp\ccSjCN8g.o: In function `main':
+c:/Users/Aashish Sharma/OneDrive/Desktop/Introduction To C/Advanced/fpc-advanced-classroom-1st-year-assignment-xdDuge-1/set04/problem04.c:18: undefined reference to `evaluate_polynomial'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/15/2023, 3:56:58 AM

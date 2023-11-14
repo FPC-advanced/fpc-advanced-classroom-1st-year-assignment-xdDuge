@@ -19,7 +19,7 @@ int main()
 void input_string(char *a)
 {
     printf("Please enter a sentence :");
-    fgets(a, sizeof(a), stdin);//fgets for reading the entire sentence.
+    fgets(a, sizeof(a), stdin);// fgets for reading the entire sentence.
 }
 
 int count_words(char *a)
@@ -41,4 +41,4 @@ void output(int no_words)
 }
 
 
-Not working
+Not working;
