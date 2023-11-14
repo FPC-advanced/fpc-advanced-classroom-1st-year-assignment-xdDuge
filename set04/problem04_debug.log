@@ -10,3 +10,11 @@ Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Adv
 Breakpoint 1, evaluate_polynomial (n=3, a=0x61febc, x=2)
     at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem04.c:56
 56	    return res;
++print res
+$1 = 301
++print x
+$2 = 2
++print a[0]
+$3 = 12
++print a[3]
+$4 = 45
