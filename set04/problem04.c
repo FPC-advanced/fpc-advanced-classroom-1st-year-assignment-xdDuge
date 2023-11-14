@@ -45,7 +45,7 @@ float input_x()
     return x;
 }
 
-float evaluate_polynomials(int n,float a[n],float x)
+float evaluate_polynomial(int n,float a[n],float x)
 {
     float res = a[0];
 
