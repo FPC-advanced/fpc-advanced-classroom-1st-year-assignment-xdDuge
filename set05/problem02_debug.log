@@ -21,3 +21,27 @@ Breakpoint 3, find_weight (radius=12, height=24, length=12)
 $1 = 12
 +print M_PI
 No symbol "M_PI" in current context.
++print height
+$2 = 24
++n
+36	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem02.c:18
+18	    output(r,h,l,w);   
++n
+
+Breakpoint 2, output (radius=12, height=24, length=12, weight=639.775146)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem02.c:40
+40	    printf("The weight of the camel of radius %.2f, height %.2f and length %.2f is %.2funits.",radius,height,length,weight);
++print weight
+$3 = 639.775146
++n
+41	}+n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem02.c:19
+19	}
++n
+0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 8428) exited normally]
++q
