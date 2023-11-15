@@ -1,0 +1,12 @@
++b 34
+Breakpoint 1 at 0x40154d: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem02.c, line 34.
++b 40
+Breakpoint 2 at 0x40157a: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem02.c, line 40.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05/./problem02.exe 
+[New Thread 8428.0xedc]
+[New Thread 8428.0x2cdc]
+
+Breakpoint 1, find_weight (radius=12, height=24, length=12)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem02.c:34
+34	    weight = M_PI * radius * sqrt(height * length);//M_PI is for the pi value
