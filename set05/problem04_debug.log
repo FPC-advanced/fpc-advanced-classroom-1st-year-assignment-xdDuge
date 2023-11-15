@@ -1,0 +1,53 @@
++b 39
+Breakpoint 1 at 0x401552: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem04.c, line 39.
++b 43
+Breakpoint 2 at 0x401579: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem04.c, line 43.
++b 46
+Breakpoint 3 at 0x401597: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem04.c, line 46.
++b 50
+Breakpoint 4 at 0x4015a0: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem04.c, line 50.
++b 72
+Breakpoint 5 at 0x4015c4: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem04.c, line 72.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05/./problem04.exe 
+[New Thread 2368.0x42b4]
+[New Thread 2368.0x3f6c]
+
+Breakpoint 1, find_mood (radius=12, height=34, length=2)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem04.c:40
+40	    else if(height<length && height<radius)
++print mood
+$1 = 175181632
++print radius
+$2 = 12
++print height
+$3 = 34
++n
+
+Breakpoint 2, find_mood (radius=12, height=34, length=2)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem04.c:44
+44	    else if(length<height && length<radius)
++n
+
+Breakpoint 3, find_mood (radius=12, height=34, length=2)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem04.c:46
+46	        mood = 2;
++n
+52	    return mood;
++n
+53	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem04.c:20
+20	    output(mood);
++n
+21	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 2368) exited normally]
++q
