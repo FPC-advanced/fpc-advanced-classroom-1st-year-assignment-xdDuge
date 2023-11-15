@@ -10,3 +10,32 @@ Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Adv
 Breakpoint 2, input ()
     at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem03.c:36
 36	    return c;
++print c.length
+$1 = 12
++print c
+$2 = {radius = 12, height = 24, length = 12, weight = 0}
++n
+37	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem03.c:23
+23	    find_weight(&c);
++n
+
+Breakpoint 1, find_weight (c=0x61ff10)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem03.c:42
+42	}
++print c
+$3 = (Camel *) 0x61ff10
++print c->weight
+$4 = 92127.6172
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem03.c:24
+24	    output(c);
++n
+25	}
++n
+0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 14968) exited normally]
++q
