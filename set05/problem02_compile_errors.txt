@@ -1,2 +1,20 @@
 Compilation started at 11/15/2023, 9:03:27 PM
 Compilation finished at 11/15/2023, 9:03:27 PM
+Compilation started at 11/15/2023, 9:11:39 PM
+c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem02.c: In function 'find_weight':
+c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem02.c:34:37: warning: implicit declaration of function 'sqrPt' [-Wimplicit-function-declaration]
+     weight = M_PI * pow(radius,3) * sqrPt(height * length);//M_PI is for the pi value
+                                     ^~~~~
+C:\Users\AASHIS~1\AppData\Local\Temp\ccY0pZMS.o: In function `find_weight':
+c:/Users/Aashish Sharma/OneDrive/Desktop/Introduction To C/Advanced/fpc-advanced-classroom-1st-year-assignment-xdDuge-1/set05/problem02.c:34: undefined reference to `sqrPt'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/15/2023, 9:11:39 PM
+Compilation started at 11/15/2023, 9:11:59 PM
+c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem02.c: In function 'find_weight':
+c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem02.c:34:37: warning: implicit declaration of function 'sqrPt' [-Wimplicit-function-declaration]
+     weight = M_PI * pow(radius,3) * sqrPt(height * length);//M_PI is for the pi value
+                                     ^~~~~
+C:\Users\AASHIS~1\AppData\Local\Temp\ccoyqwPv.o: In function `find_weight':
+c:/Users/Aashish Sharma/OneDrive/Desktop/Introduction To C/Advanced/fpc-advanced-classroom-1st-year-assignment-xdDuge-1/set05/problem02.c:34: undefined reference to `sqrPt'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/15/2023, 9:11:59 PM

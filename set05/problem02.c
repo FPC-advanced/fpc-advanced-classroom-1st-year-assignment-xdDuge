@@ -2,7 +2,7 @@
 
 //> `weight = pi * stomach_radius^3 * sqrt(height * length)`
 
-#define _USE_MATH_DEFINES
+#define _USE_MATH_DEFINES //For M_PI
 #include<stdio.h>
 #include<math.h>
 
@@ -31,7 +31,7 @@ void input_camel_details(float *radius, float *height, float *length)
 float find_weight(float radius, float height, float length)
 {
     float weight;
-    weight = M_PI * radius * sqrt(height * length);//M_PI is for the pi value
+    weight = M_PI * pow(radius,3) * sqrPt(height * length);//M_PI is for the pi value
     return weight;
 }
 
