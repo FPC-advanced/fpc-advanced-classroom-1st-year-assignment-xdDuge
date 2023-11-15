@@ -10,3 +10,14 @@ Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Adv
 Breakpoint 1, find_weight (radius=12, height=24, length=12)
     at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem02.c:34
 34	    weight = M_PI * radius * sqrt(height * length);//M_PI is for the pi value
++b 35
+Breakpoint 3 at 0x40156f: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem02.c, line 35.
++n
+
+Breakpoint 3, find_weight (radius=12, height=24, length=12)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem02.c:35
+35	    return weight;
++print radius
+$1 = 12
++print M_PI
+No symbol "M_PI" in current context.
