@@ -1,1 +1,34 @@
 +q
++b 47
+Breakpoint 1 at 0x401555: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem07.c, line 47.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05/./problem07.exe 
+[New Thread 21004.0x3b4c]
+[New Thread 21004.0x25a4]
+
+Breakpoint 1, has_nice_name (c=0x61feb8 "lays")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem07.c:47
+47	    return 0;
++print vowel
+$1 = 1
++print con
+$2 = 3
++print c
+$3 = 0x61feb8 "lays"
++print chh
+No symbol "chh" in current context.
++print ch
+No symbol "ch" in current context.
++n
+48	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem07.c:19
+19	    output(res);
++n
+20	}
++n
+0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 21004) exited normally]
++q
