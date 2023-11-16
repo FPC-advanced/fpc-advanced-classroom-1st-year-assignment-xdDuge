@@ -1,0 +1,13 @@
++b 57
+Breakpoint 1 at 0x4016b1: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem08.c, line 57.
++b 69
+Breakpoint 2 at 0x4016f4: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem08.c, line 69.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05/./problem08.exe 
+[New Thread 5140.0x11ac]
+[New Thread 5140.0x2fcc]
+
+Breakpoint 1, find_camel_weight (n=2, c=0x61feac)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem08.c:58
+warning: Source file is more recent than executable.
+58	}
