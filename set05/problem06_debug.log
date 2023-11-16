@@ -1,0 +1,28 @@
++b 54
+Breakpoint 1 at 0x4015ee: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem06.c, line 54.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05/./problem06.exe 
+[New Thread 15540.0x4d7c]
+[New Thread 15540.0x2ae8]
+
+Breakpoint 1, odd_average (n=4, a=0x61fec8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem06.c:54
+54	    return avg;
++print sum
+$1 = 28
++print count
+$2 = 2
++n
+55	}
++n
+main ()
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem06.c:18
+18	    output(avg);
++n
+19	}
++n
+0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 15540) exited normally]
++q
