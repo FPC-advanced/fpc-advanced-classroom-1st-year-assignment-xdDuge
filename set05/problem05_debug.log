@@ -1,0 +1,33 @@
++b 51
+Breakpoint 1 at 0x40155f: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem05.c, line 51.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05/./problem05.exe 
+[New Thread 2972.0x37e4]
+[New Thread 2972.0x4a14]
+
+Breakpoint 1, borga_X (x=5)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem05.c:52
+warning: Source file is more recent than executable.
+52	    return res;
++print res
+$1 = -nan(0x400000)
++n
+53	}
++n
+main ()
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem05.c:18
+18	    output(x,res);
++n
+19	    return 0;
++n
+20	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 2972) exited normally]
++q

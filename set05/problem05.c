@@ -39,12 +39,12 @@ float borga_X(int x)
     // while(term>=0.000001);
     while(term>0.000001)
     {
-        int d=0;
+        int d=1;
         for(int i=1;i<=fact;i++) 
         {
-            d=fact*i;
+            d=d*i;
         }
-        term=(float)pow(x,a)/d;
+        term=pow(x,a)/d;
         fact+=2;
         a++;
         res+=term;
