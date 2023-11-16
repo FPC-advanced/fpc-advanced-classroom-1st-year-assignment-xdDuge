@@ -13,3 +13,26 @@ warning: Source file is more recent than executable.
 58	}
 +print c[0].weight
 $1 = 492.499146
++print c[1].weight
+$2 = 5902.07373
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem08.c:33
+33	    weight = compute_total_weight(n,c,truck);
++n
+
+Breakpoint 2, compute_total_weight (n=2, c=0x61feac, truck_weight=1)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem08.c:69
+69	}
++print tot_weight
+$3 = 6395.57275
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem08.c:34
+34	    output(weight);
++n
+35	}
++n
+0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 5140) exited normally]
++q
