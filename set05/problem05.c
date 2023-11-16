@@ -31,7 +31,7 @@ float borga_X(int x)
     float term=1.0,res=1.0;
     int a=1,fact=3;
     // do{
-    //     fact *= (2 * n - 1) * (2 * n);
+    //     fact *= (2 * n);
     //     term = pow(x,n)/fact;
     //     res += term;
     //     n++;
