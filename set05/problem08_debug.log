@@ -11,3 +11,5 @@ Breakpoint 1, find_camel_weight (n=2, c=0x61feac)
     at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set05\problem08.c:58
 warning: Source file is more recent than executable.
 58	}
++print c[0].weight
+$1 = 492.499146
