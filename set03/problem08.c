@@ -51,7 +51,7 @@ int input_polygon(Polygon *p)
     printf("Enter the vertices of the polygon: \n");
     for(int i = 0;i < p->sides;i++)
     {
-        p->p[i] = input_point("Enter the endpoint co-ordinates (x,y) : \n");   
+        p->p[i] = input_point("Enter the endpoint co-ordinates  (x,y) : \n");   
     }
     return p->sides;
 }
@@ -61,7 +61,7 @@ float find_distance(Point a,Point b)
     int d = sqrt(((a.x-b.x)*(a.x-b.x))+((a.y-b.y)*(a.y-b.y)));
     return d;
 }
-
+     
 void find_perimeter(Polygon *p)
 {
     float perimeter = 0.0;
