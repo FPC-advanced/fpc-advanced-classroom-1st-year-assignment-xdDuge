@@ -1,0 +1,31 @@
++b 8
+Breakpoint 1 at 0x40147f: file c:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem01.c, line 8.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01/./problem01.exe 
+[New Thread 20304.0x3f34]
+[New Thread 20304.0xe3c]
+
+Breakpoint 1, main () at c:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem01.c:8
+warning: Source file is more recent than executable.
+8	    return 0;
++printf
+Argument required (format-control string and values to print).
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01/./problem01.exe 
+[New Thread 16820.0xf00]
+[New Thread 16820.0x3d9c]
+
+Breakpoint 1, main () at c:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem01.c:8
+8	    return 0;
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 16820) exited normally]
++q
