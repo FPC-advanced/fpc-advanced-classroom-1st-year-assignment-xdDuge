@@ -1,0 +1,38 @@
++b 28
+Breakpoint 1 at 0x4014fe: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem03.c, line 28.
++b 33
+Breakpoint 2 at 0x40152a: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem03.c, line 33.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01/./problem03.exe 
+[New Thread 17588.0x4434]
+[New Thread 17588.0x8f8]
+
+Breakpoint 1, add (a=12, b=23)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem03.c:28
+28	    return sum;
++print sum
+$1 = 35
++print a
+$2 = 12
++print b
+$3 = 23
++print sum
+$4 = 35
++n
+29	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem03.c:15
+15	    output(a,b,sum);
++n
+
+Breakpoint 2, output (a=12, b=23, sum=35)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem03.c:33
+33	}+n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem03.c:16
+16	}
++n
+0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 17588) exited normally]
++q
