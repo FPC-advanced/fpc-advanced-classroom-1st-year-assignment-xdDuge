@@ -1,0 +1,22 @@
++b 13
+Breakpoint 1 at 0x4014bc: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem02.c, line 13.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01/./problem02.exe 
+[New Thread 20364.0x2624]
+[New Thread 20364.0x5bec]
+
+Breakpoint 1, main ()
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem02.c:13
+warning: Source file is more recent than executable.
+13	    printf("The sum of two numbers is:%d",sum);
++print sum
+$1 = 35
++print a
+$2 = 12
++print b
+$3 = 23
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) Program not restarted.
++n
+14	    return 0;
