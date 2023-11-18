@@ -1,0 +1,27 @@
++b 40
+Breakpoint 1 at 0x40152e: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem05.c, line 40.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01/./problem05.exe 
+[New Thread 8748.0x21d8]
+[New Thread 8748.0x51a4]
+
+Breakpoint 1, compare (a=12, b=23, c=34)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem05.c:40
+40	}
++print a
+$1 = 12
++print b
+$2 = 23
++print c
+$3 = 34
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem05.c:16
+16	    output(a,b,c,lar);
++n
+17	}
++n
+0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 8748) exited normally]
++q
