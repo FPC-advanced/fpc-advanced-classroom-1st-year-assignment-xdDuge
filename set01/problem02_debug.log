@@ -20,3 +20,27 @@ The program being debugged has been started already.
 Start it from the beginning? (y or n) Program not restarted.
 +n
 14	    return 0;
++n
+15	}+n
+0x00401288 in __register_frame_info ()
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01/./problem02.exe 
+[New Thread 13596.0x4ef4]
+[New Thread 13596.0x48d4]
+
+Breakpoint 1, main ()
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem02.c:13
+13	    printf("The sum of two numbers is:%d",sum);
++n
+14	    return 0;
++n
+15	}+finish
+"finish" not meaningful in the outermost frame.
++q
+A debugging session is active.
+
+	Inferior 1 [process 13596] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
