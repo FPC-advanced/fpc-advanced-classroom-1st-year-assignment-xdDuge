@@ -1,0 +1,40 @@
++b 27
+Breakpoint 1 at 0x401518: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem04.c, line 27.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01/./problem04.exe 
+[New Thread 23532.0x24f8]
+[New Thread 23532.0x5810]
+
+Breakpoint 1, add (a=124, b=234, sum=0x61ff14)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem04.c:27
+27	}
++print sum
+$1 = (int *) 0x61ff14
++print *sum
+$2 = 358
++print &sum
+$3 = (int **) 0x61ff08
++print a
+$4 = 124
++print b
+$5 = 234
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) Program not restarted.
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem04.c:14
+14	    output(a,b,sum);
++n
+15	    return 0;
++n
+16	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 23532) exited normally]
++q
