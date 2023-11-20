@@ -1,0 +1,14 @@
++b 34
+Breakpoint 1 at 0x40150c: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem06.c, line 34.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04/./problem06.exe 
+[New Thread 11500.0x1b70]
+[New Thread 11500.0x10e8]
+
+Breakpoint 1, count_words (a=0x61fb34 "i")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem06.c:35
+35	    return count;
++print count
+$1 = 3
++print word
+$2 = 0x0
