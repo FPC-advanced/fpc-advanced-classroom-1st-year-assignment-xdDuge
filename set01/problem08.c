@@ -46,7 +46,7 @@ void output(int n, int a[n], int sum)
         printf("%d ",a[i]);
         if(i!=n)
         {
-            
+            printf("+");
         }
     }
     printf(" = %d.",sum);
