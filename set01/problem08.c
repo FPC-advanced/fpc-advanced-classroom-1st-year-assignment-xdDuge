@@ -45,7 +45,8 @@ void output(int n, int a[n], int sum)
     {
         if(i!=n)
         {
-            print("%d + ")
+            print("%d + ",a[i]);
         }
+        print(" = %d.")
     }
 }
