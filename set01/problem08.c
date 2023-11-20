@@ -41,10 +41,5 @@ int sum_n_array(int n, int a[n])
 }
 void output(int n, int a[n], int sum)
 {
-    for(int i=0;i<n;i++)
-    {
-        printf("%d+",a[i]);
-        if(i=n-1)
-        printf
-    }
+    while(int i<n)
 }
