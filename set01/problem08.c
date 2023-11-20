@@ -43,6 +43,6 @@ void output(int n, int a[n], int sum)
 {
     for(int i=0;i<n;i++)
     {
-        printf("%d",)
+        printf("%d",a[i]);
     }
 }
