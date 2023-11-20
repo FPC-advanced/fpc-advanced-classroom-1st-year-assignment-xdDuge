@@ -12,3 +12,22 @@ Breakpoint 1, count_words (a=0x61fb34 "i")
 $1 = 3
 +print word
 $2 = 0x0
++print *word
+Cannot access memory at address 0x0
++n
+36	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem06.c:16
+16	    output(c);
++n
+17	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 11500) exited normally]
++q
