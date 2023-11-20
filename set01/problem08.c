@@ -13,7 +13,7 @@ int main()
     int a[n];
     input_array(n,a);
     sum = sum_n_array(n,a);
-    output(sum);
+    output(n,a,sum);
 }
 int input_array_size()
 {
