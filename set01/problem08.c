@@ -43,9 +43,10 @@ void output(int n, int a[n], int sum)
 {
     for(int i=0;i<n;i++)
     {
+        printf("%d ",a[i]);
         if(i!=n)
         {
-            printf("%d + ",a[i]);
+            
         }
     }
     printf(" = %d.",sum);
