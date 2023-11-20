@@ -41,5 +41,9 @@ int sum_n_array(int n, int a[n])
 }
 void output(int n, int a[n], int sum)
 {
-    while(int i<n)
+    int i666
+    while(i<n)
+    {
+
+    }
 }
