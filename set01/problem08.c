@@ -43,6 +43,9 @@ void output(int n, int a[n], int sum)
 {
     for(int i=0;i<n;i++)
     {
-        if(i)
+        if(i!=n)
+        {
+            print("%d + ")
+        }
     }
 }
