@@ -24,11 +24,11 @@ void input(int *a, int *b, int *c)
 }
 void compare(int a, int b, int c, int *lar)
 {
-    if (a>b && a>c)
+    if (a>=b && a>=c)
     {
         *lar = a;
     }
-    else if (b>a && b>c)
+    else if (b>=c)
     {
         *lar = b;
     }

@@ -81,7 +81,8 @@ void output(int n, Complex c[n], Complex res)
         if (i < n - 1) 
         {
             printf("+ ");
-        } else 
+        }
+        else
         {
             printf("= ");
         }

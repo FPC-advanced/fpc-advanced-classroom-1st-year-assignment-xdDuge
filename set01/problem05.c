@@ -25,17 +25,17 @@ int input()
 }
 int compare(int a ,int b, int c)
 {
-    if(a>b && a>c)
+    if(a>=b && a>=c)
     {
         return a;
     }
-    else if(b>a && b>c)
+    else if(b>=c)
     {
         return b;
     }
     else
     {
-        return c; 
+        return c;
     }
 }
 void output(int a, int b, int c, int lar)

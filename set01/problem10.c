@@ -28,25 +28,15 @@ void input_two_strings(char *str1, char *str2)
 int stringcompare(char *str1, char *str2)
 {
     int result;
-    if(*str1>*str2)
-    {
-        result = 1;
-    }
-    else if(*str1==*str2)
-    {
-        result = 0;
-    }
-    else{
-        result = 2;
-    }
+    result=*str1-*str2;//checks only first char
     return result;
 }
 
 void output(char *str1, char *str2, int result)
 {
-    if (result == 2) {
+    if (result <= -1) {
         printf("%s is less than %s\n", str1, str2);
-    } else if (result == 1) {
+    } else if (result >= 1) {
         printf("%s is greater than %s\n", str1, str2);
     } else if (result == 0){
         printf("%s is equal to %s\n", str1, str2);
