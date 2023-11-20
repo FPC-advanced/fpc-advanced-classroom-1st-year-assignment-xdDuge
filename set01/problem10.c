@@ -27,8 +27,12 @@ void input_two_strings(char *str1, char *str2)
 
 int stringcompare(char *str1, char *str2)
 {
-    int result;
-    result=*str1-*str2;//checks only first char
+    int i,result=0;
+    for(i=0;str1[i]!='\0' && str2[i]!='\0' && str1[i]==str2[i];i++)
+    {
+        continue;
+    }
+    result =str1[i] - str2[i];
     return result;
 }
 
