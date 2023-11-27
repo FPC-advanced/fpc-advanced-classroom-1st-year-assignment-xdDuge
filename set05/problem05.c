@@ -37,6 +37,7 @@ float borga_X(int x)
     //     n++;
     // }
     // while(term>=0.000001);
+    
     while(term>0.000001)
     {
         int d=1;
