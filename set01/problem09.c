@@ -22,10 +22,18 @@ float input()
 }
 float square_root(float n)
 {
-    float i;
+    float x = n, y = 1.0, epsilion = 0.00001;
+    while (x - y > epsilion)
+    {
+        x = (x+y)/2;
+        y = n/x;
+    }
 
-    for(i=1.414 ; i*i<n ; i+=0.000001);    
-    return i;//change
+    return x;
+    // float i;
+
+    // for(i=1.414 ; i*i<n ; i+=0.000001);    
+    // return i;//change
 }
 void output(float n, float sqrroot)
 {
