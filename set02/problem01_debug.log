@@ -1,2 +1,28 @@
 +b 25
 Breakpoint 1 at 0x40152d: file c:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem01.c, line 25.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02/./problem01.exe 
+[New Thread 12640.0x61a8]
+[New Thread 12640.0x1380]
+
+Breakpoint 1, find_area (base=12, height=23, area=0x61ff14)
+    at c:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem01.c:25
+warning: Source file is more recent than executable.
+25	}
++print area
+$1 = (float *) 0x61ff14
++print *area
+$2 = 138
++print &area
+$3 = (float **) 0x61ff08
++n
+main () at c:\Users\Aashish Sharma\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem01.c:13
+13	    output(b,h,ar);
++n
+14	}
++n
+0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 12640) exited normally]
++q
