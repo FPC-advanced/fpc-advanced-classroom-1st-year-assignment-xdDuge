@@ -1,0 +1,32 @@
++b 31
+Breakpoint 1 at 0x401575: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem08.c, line 31.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01/./problem08.exe 
+[New Thread 14184.0x2af8]
+[New Thread 14184.0x3d38]
+
+Breakpoint 1, input_array (n=3, a=0x61fee8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem08.c:32
+warning: Source file is more recent than executable.
+32	}
++print a[0]
+$1 = 12
++print a[1]
+$2 = 23
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem08.c:15
+15	    sum = sum_n_array(n,a);
++n
+16	    output(n,a,sum);
++n
+17	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 14184) exited normally]
++q
