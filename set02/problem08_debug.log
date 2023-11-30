@@ -1,0 +1,50 @@
++b 54
+Breakpoint 1 at 0x401660: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem08.c, line 54.
++b 79
+Breakpoint 2 at 0x40173d: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem08.c, line 79.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02/./problem08.exe 
+[New Thread 9260.0x5888]
+[New Thread 9260.0x3aa4]
+
+Breakpoint 1, input_n_triangles (n=2, t=0x61febc)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem08.c:55
+warning: Source file is more recent than executable.
+55	}
++t[0]
+A syntax error in expression, near `[0]'.
++print t[0]
+$1 = {base = 12, altitude = 23, area = 2.21971315e+033}
++print t[1]
+$2 = {base = 12, altitude = 23, area = 2.21971315e+033}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem08.c:24
+24	    find_n_areas(n, tri);
++n
+25	    Triangle smtri = find_smallest_triangle(n, tri);
++n
+
+Breakpoint 2, find_smallest_triangle (n=2, t=0x61febc)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem08.c:79
+79	    return smallest;
++print smallest
+$3 = {base = 12, altitude = 23, area = 138}
++n
+80	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem08.c:26
+26	    output(smtri);
++n
+27	    return 0;
++n
+28	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 9260) exited normally]
++q
