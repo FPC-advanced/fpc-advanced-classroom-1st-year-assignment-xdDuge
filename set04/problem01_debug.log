@@ -1,0 +1,16 @@
++b 33
+Breakpoint 1 at 0x4015a9: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem01.c, line 33.
++b 43
+Breakpoint 2 at 0x4015fd: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem01.c, line 43.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04/./problem01.exe 
+[New Thread 9868.0x204]
+[New Thread 9868.0x2924]
+
+Breakpoint 1, add (num1=12, den1=23, num2=24, den2=36, res_num=0x61fefc, res_den=0x61fef8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem01.c:33
+33	    *res_den = den1*den2;//simple criss cross method
++print *res_num
+$1 = 984
++print *res_den
+$2 = -2
