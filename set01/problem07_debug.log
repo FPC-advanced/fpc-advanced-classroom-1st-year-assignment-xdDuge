@@ -1,0 +1,15 @@
++b 30
+Breakpoint 1 at 0x4014f4: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem07.c, line 30.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01/./problem07.exe 
+[New Thread 17044.0x44f0]
+[New Thread 17044.0x2a7c]
+
+Breakpoint 1, sum_n_nos (n=5)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem07.c:30
+warning: Source file is more recent than executable.
+30	    return sum;
++print i
+No symbol "i" in current context.
++print sum
+$1 = 10
