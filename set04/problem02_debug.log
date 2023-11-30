@@ -19,3 +19,34 @@ $1 = 5.49865033e-039
 28	    fb = f2.num/f2.den;
 +print f2
 $2 = {num = 12, den = 23}
++print fb
+$3 = 0
++print fc
+$4 = 1.78237766e-038
++print fb
+$5 = 0
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) Program not restarted.
++n
+
+Breakpoint 2, main ()
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem02.c:29
+29	    fc = f3.num/f3.den;
++n
+31	    if(fa < fb && fa < fb)
++print fb
+$6 = 0
++n
+35	    else if(fb < fa && fb < fc)
++n
+40	        printf("The smallest fraction is: %d/%d",f3.num,f3.den);
++n
+43	    return 0;
++n
+44	}+n
+0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 7764) exited normally]
++q
