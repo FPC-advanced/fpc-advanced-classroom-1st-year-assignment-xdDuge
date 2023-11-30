@@ -14,3 +14,20 @@ The "finish" command does not take any arguments.
 $1 = 138
 +print t->base
 $2 = 12
++print t->altitude
+$3 = 23
++print t->altitude
+$4 = 23
++print t->altitude
+$5 = 23
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem07.c:17
+17		output(T1);
++n
+18	}
++n
+0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 26104) exited normally]
++q
