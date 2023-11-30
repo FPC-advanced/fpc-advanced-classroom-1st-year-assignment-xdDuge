@@ -1,0 +1,39 @@
++b 27
+Breakpoint 1 at 0x401523: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem06.c, line 27.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02/./problem06.exe 
+[New Thread 25632.0x25a8]
+[New Thread 25632.0x2ba4]
+
+Breakpoint 1, str_reverse (str=0x61fb38 "Hello", reva=0x61f750 "olleH\030Ã")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem06.c:28
+28	    reva[len1] = '\0';
++print reva
+$1 = 0x61f750 "olleH\030Ã"
++print *reva
+$2 = 111 'o'
++print &reva
+$3 = (char **) 0x61f744
++n
+30	}
++print reva
+$4 = 0x61f750 "olleH"
++print len
+No symbol "len" in current context.
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem06.c:14
+14	    output(a,reva);
++n
+15	    return 0;
++n
+16	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 25632) exited normally]
++q
