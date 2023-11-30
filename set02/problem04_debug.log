@@ -1,0 +1,15 @@
++b 31
+Breakpoint 1 at 0x401575: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem04.c, line 31.
++b 44
+Breakpoint 2 at 0x4015f1: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem04.c, line 44.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02/./problem04.exe 
+[New Thread 25892.0x6594]
+[New Thread 25892.0x6590]
+
+Breakpoint 1, input_array (n=3, a=0x61fee8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem04.c:31
+warning: Source file is more recent than executable.
+31	    }
++print a[1]
+$1 = 23
