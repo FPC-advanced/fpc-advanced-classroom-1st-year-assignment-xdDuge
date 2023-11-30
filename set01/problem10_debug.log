@@ -1,0 +1,15 @@
++b 36
+Breakpoint 1 at 0x401537: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem10.c, line 36.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01/./problem10.exe 
+[New Thread 7468.0x1748]
+[New Thread 7468.0x33fc]
+
+Breakpoint 1, output (str1=0x61feb8 "Hello", str2=0x61fe54 "Hellw", result=0)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem10.c:37
+warning: Source file is more recent than executable.
+37	}
++print eesult
+No symbol "eesult" in current context.
++print result
+$1 = 0
