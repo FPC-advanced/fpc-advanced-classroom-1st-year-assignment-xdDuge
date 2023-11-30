@@ -1,0 +1,16 @@
++b 31
+Breakpoint 1 at 0x401548: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem07.c, line 31.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02/./problem07.exe 
+[New Thread 26104.0x5c24]
+[New Thread 26104.0x389c]
+
+Breakpoint 1, find_area (t=0x61ff14)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem07.c:31
+31	}
++finish t->area
+The "finish" command does not take any arguments.
++print t->area
+$1 = 138
++print t->base
+$2 = 12
