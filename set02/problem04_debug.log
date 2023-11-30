@@ -16,3 +16,10 @@ $1 = 23
 +n
 main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem04.c:15
 15	    int sum = sum_composite_numbers(n,a);
++n
+
+Breakpoint 2, sum_composite_numbers (n=3, a=0x61fee8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem04.c:44
+44	        }
++print j
+No symbol "j" in current context.
