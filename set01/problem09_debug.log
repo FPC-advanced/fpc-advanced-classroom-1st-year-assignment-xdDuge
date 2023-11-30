@@ -1,0 +1,3 @@
++b 26
+Breakpoint 1 at 0x4014f6: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem09.c, line 26.
++disable 1
