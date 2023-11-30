@@ -9,3 +9,24 @@ Undefined command: "2".  Try "help".
 +b 49
 No line 49 in the current file.
 Make breakpoint pending on future shared library load? (y or [n]) +q
++help set logging
+Set logging options
+
+List of set logging subcommands:
+
+set logging file -- Set the current logfile
+set logging off -- Disable logging
+set logging on -- Enable logging
+set logging overwrite -- Set whether logging overwrites or appends to the log file
+set logging redirect -- Set the logging output mode
+
+Type "help set logging" followed by set logging subcommand name for full documentation.
+Type "apropos word" to search for commands related to "word".
+Command name abbreviations are allowed if unambiguous.
++set logging on
+Already logging to problem07_debug.log.
++b 49
+No line 49 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) +1
+Undefined command: "1".  Try "help".
++q
