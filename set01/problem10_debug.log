@@ -13,3 +13,30 @@ warning: Source file is more recent than executable.
 No symbol "eesult" in current context.
 +print result
 $1 = 0
++n
+39	void output(char *str1, char *str2, int result)
++n
+41	    if (result <= -1) {
++n
+42	        printf("%s is less than %s\n", str1, str2);
++n
+44	        printf("%s is greater than %s\n", str1, str2);
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem10.c:17
+17	    return 0;
++n
+18	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
++finish
+Run till exit from #0  0x0040128f in __register_frame_info ()
+[Inferior 1 (process 7468) exited normally]
++q
