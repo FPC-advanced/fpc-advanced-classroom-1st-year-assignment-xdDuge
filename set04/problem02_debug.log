@@ -1,0 +1,21 @@
++b fa
+Function "fa" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) +b 27
+Breakpoint 1 at 0x401537: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem02.c, line 27.
++b 29
+Breakpoint 2 at 0x401565: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem02.c, line 29.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04/./problem02.exe 
+[New Thread 7764.0x3780]
+[New Thread 7764.0x58a8]
+
+Breakpoint 1, main ()
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem02.c:27
+warning: Source file is more recent than executable.
+27	    fa = f1.num/f1.den;
++print fa
+$1 = 5.49865033e-039
++n
+28	    fb = f2.num/f2.den;
++print f2
+$2 = {num = 12, den = 23}
