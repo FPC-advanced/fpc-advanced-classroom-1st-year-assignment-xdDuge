@@ -1,0 +1,26 @@
++b 31
+Breakpoint 1 at 0x4014fb: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem03.c, line 31.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02/./problem03.exe 
+[New Thread 15064.0x571c]
+[New Thread 15064.0x60f0]
+
+Breakpoint 1, is_composite (n=12)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem03.c:32
+warning: Source file is more recent than executable.
+32	    return 59;
++print n
+$1 = 12
++print i
+No symbol "i" in current context.
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem03.c:13
+13	    output(n,res);
++n
+14	}
++n
+0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 15064) exited normally]
++q
