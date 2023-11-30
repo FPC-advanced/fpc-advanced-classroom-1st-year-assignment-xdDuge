@@ -1,0 +1,65 @@
++b 37
+Breakpoint 1 at 0x401570: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem03.c, line 37.
++b 32
+Breakpoint 2 at 0x40153f: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem03.c, line 32.
++b 29
+Breakpoint 3 at 0x40152b: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem03.c, line 29.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04/./problem03.exe 
+[New Thread 22452.0x4bfc]
+[New Thread 22452.0x23ac]
+
+Breakpoint 3, nCr (n=4, r=5)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem03.c:30
+warning: Source file is more recent than executable.
+30	    for (int i=r;i>1;i--)
++n
+28	        nfac *=i;
++n
+
+Breakpoint 3, nCr (n=4, r=5)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem03.c:30
+30	    for (int i=r;i>1;i--)
++n
+28	        nfac *=i;
++n
+
+Breakpoint 3, nCr (n=4, r=5)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem03.c:30
+30	    for (int i=r;i>1;i--)
++n
+28	        nfac *=i;
++n
+
+Breakpoint 3, nCr (n=4, r=5)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem03.c:30
+30	    for (int i=r;i>1;i--)
++n
+28	        nfac *=i;
++n
+
+Breakpoint 2, nCr (n=4, r=5)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem03.c:32
+32	        rfac *=i;
++n
+36	        fac *=i;
++print fac
+$1 = 1
++n
+
+Breakpoint 1, nCr (n=4, r=5)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem03.c:37
+37	    }
++n
+38	    int ncr = nfac/(rfac*fac);
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem03.c:14
+14	    output(n,r,ncr);
++n
+15	}
++n
+0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 22452) exited normally]
++q
