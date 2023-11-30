@@ -1,0 +1,31 @@
++b 38
+Breakpoint 1 at 0x40155a: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem11.c, line 38.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01/./problem11.exe 
+[New Thread 18960.0x38d0]
+[New Thread 18960.0x56d0]
+
+Breakpoint 1, add_complex (C1=..., C2=...)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem11.c:38
+38	    return Sum;
++print sum.real
+No symbol "sum" in current context.
++print Sum.real
+$1 = 24
++print Sum.img
+$2 = 46
++print Sum
+$3 = {real = 24, img = 46}
++n
+39	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem11.c:22
+22	    output(C1,C2,Sum);
++n
+23	}
++n
+0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 18960) exited normally]
++q
