@@ -14,3 +14,31 @@ Breakpoint 1, add (num1=12, den1=23, num2=24, den2=36, res_num=0x61fefc, res_den
 $1 = 984
 +print *res_den
 $2 = -2
++n
+34	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem01.c:15
+15	    output(n1,d1,n2,d2,rn,rd);
++n
+
+Breakpoint 2, output (num1=12, den1=23, num2=24, den2=36, res_num=984, res_den=828)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem01.c:44
+44	    printf("The sum of two fractions %d/%d and %d/%d is = %d/%d",num1,den1,num2,den2,res_num/hcf,res_den/hcf);
++print hcf
+$3 = 12
++print res_num
+$4 = 984
++print res_den
+$5 = 828
++n
+45	}+n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set04\problem01.c:16
+16	}
++finish
+"finish" not meaningful in the outermost frame.
++n
+0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 9868) exited normally]
++q
