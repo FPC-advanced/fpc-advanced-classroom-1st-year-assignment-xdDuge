@@ -13,3 +13,6 @@ warning: Source file is more recent than executable.
 31	    }
 +print a[1]
 $1 = 23
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem04.c:15
+15	    int sum = sum_composite_numbers(n,a);
