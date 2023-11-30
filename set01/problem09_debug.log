@@ -1,3 +1,33 @@
 +b 26
 Breakpoint 1 at 0x4014f6: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem09.c, line 26.
 +disable 1
++b 32
+Breakpoint 2 at 0x401524: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem09.c, line 32.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01/./problem09.exe 
+[New Thread 10776.0x38f8]
+[New Thread 10776.0x5334]
+
+Breakpoint 2, square_root (n=4)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem09.c:32
+warning: Source file is more recent than executable.
+32	    return x;
++print x
+$1 = 2
++print n
+$2 = 4
++print y
+$3 = 2
++n
+37	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set01\problem09.c:14
+14	    output(n,sqrt);
++n
+15	}
++n
+0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 10776) exited normally]
++q
