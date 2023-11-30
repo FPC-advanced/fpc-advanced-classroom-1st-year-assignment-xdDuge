@@ -1,0 +1,8 @@
++b 49
+No line 49 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) +b 45
+No line 45 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) Please answer y or [n].
+Make breakpoint pending on future shared library load? (y or [n]) +2
+Undefined command: "2".  Try "help".
++q
