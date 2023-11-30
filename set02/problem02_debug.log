@@ -1,0 +1,12 @@
++b 37
+Breakpoint 1 at 0x401521: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02\problem02.c, line 37.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set02/./problem02.exe 
+[New Thread 16216.0x6148]
+[New Thread 16216.0x18f4]
+[Inferior 1 (process 16216) exited normally]
++n
+The program is not being run.
++finish
+The program is not being run.
++q
