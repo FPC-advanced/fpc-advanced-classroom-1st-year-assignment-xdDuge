@@ -1,0 +1,275 @@
++b 43
+Breakpoint 1 at 0x4014ea: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c, line 43.
++b 50
+Breakpoint 2 at 0x40152a: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c, line 50.
++b 73
+Breakpoint 3 at 0x40163d: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c, line 73.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03/./problem08.exe 
+[New Thread 25684.0x3140]
+[New Thread 25684.0x4358]
+
+Breakpoint 2, input_polygon (p=0x61fbe8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:50
+warning: Source file is more recent than executable.
+50	    p->sides = input_n();
++print p->sides
+$1 = 10
++n
+51	    printf("Enter the vertices of the polygon: \n");
++n
+52	    for(int i = 0;i < p->sides;i++)
++n
+54	        p->p[i] = input_point("Enter the endpoint co-ordinates  (x,y) : \n");   
++n
+
+Breakpoint 1, input_point (prompt_msg=0x4050b0 <__register_frame_info+4214960> "Enter the endpoint co-ordinates (x,y) : \n")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:43
+43	    printf("%s", prompt_msg);
++n
+44	    scanf("%f %f",&p.x, &p.y);
++n
+45	    return p;
++n
+46	}
++n
+input_polygon (p=0x61fbe8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:52
+52	    for(int i = 0;i < p->sides;i++)
++n
+54	        p->p[i] = input_point("Enter the endpoint co-ordinates  (x,y) : \n");   
++n
+
+Breakpoint 1, input_point (prompt_msg=0x4050b0 <__register_frame_info+4214960> "Enter the endpoint co-ordinates (x,y) : \n")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:43
+43	    printf("%s", prompt_msg);
++n
+44	    scanf("%f %f",&p.x, &p.y);
++n
+45	    return p;
++n
+46	}
++n
+input_polygon (p=0x61fbe8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:52
+52	    for(int i = 0;i < p->sides;i++)
++n
+54	        p->p[i] = input_point("Enter the endpoint co-ordinates  (x,y) : \n");   
++n
+
+Breakpoint 1, input_point (prompt_msg=0x4050b0 <__register_frame_info+4214960> "Enter the endpoint co-ordinates (x,y) : \n")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:43
+43	    printf("%s", prompt_msg);
++n
+44	    scanf("%f %f",&p.x, &p.y);
++n
+45	    return p;
++n
+46	}
++n
+input_polygon (p=0x61fbe8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:52
+52	    for(int i = 0;i < p->sides;i++)
++n
+54	        p->p[i] = input_point("Enter the endpoint co-ordinates  (x,y) : \n");   
++n
+
+Breakpoint 1, input_point (prompt_msg=0x4050b0 <__register_frame_info+4214960> "Enter the endpoint co-ordinates (x,y) : \n")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:43
+43	    printf("%s", prompt_msg);
++n
+44	    scanf("%f %f",&p.x, &p.y);
++n
+45	    return p;
++n
+46	}
++n
+input_polygon (p=0x61fbe8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:52
+52	    for(int i = 0;i < p->sides;i++)
++n
+54	        p->p[i] = input_point("Enter the endpoint co-ordinates  (x,y) : \n");   
++n
+
+Breakpoint 1, input_point (prompt_msg=0x4050b0 <__register_frame_info+4214960> "Enter the endpoint co-ordinates (x,y) : \n")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:43
+43	    printf("%s", prompt_msg);
++n
+44	    scanf("%f %f",&p.x, &p.y);
++n
+45	    return p;
++n
+46	}
++n
+input_polygon (p=0x61fbe8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:52
+52	    for(int i = 0;i < p->sides;i++)
++n
+54	        p->p[i] = input_point("Enter the endpoint co-ordinates  (x,y) : \n");   
++n
+
+Breakpoint 1, input_point (prompt_msg=0x4050b0 <__register_frame_info+4214960> "Enter the endpoint co-ordinates (x,y) : \n")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:43
+43	    printf("%s", prompt_msg);
++n
+44	    scanf("%f %f",&p.x, &p.y);
++n
+45	    return p;
++n
+46	}
++n
+input_polygon (p=0x61fbe8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:52
+52	    for(int i = 0;i < p->sides;i++)
++n
+54	        p->p[i] = input_point("Enter the endpoint co-ordinates  (x,y) : \n");   
++n
+
+Breakpoint 1, input_point (prompt_msg=0x4050b0 <__register_frame_info+4214960> "Enter the endpoint co-ordinates (x,y) : \n")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:43
+43	    printf("%s", prompt_msg);
++n
+44	    scanf("%f %f",&p.x, &p.y);
++n
+45	    return p;
++n
+46	}
++n
+input_polygon (p=0x61fbe8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:52
+52	    for(int i = 0;i < p->sides;i++)
++n
+54	        p->p[i] = input_point("Enter the endpoint co-ordinates  (x,y) : \n");   
++n
+
+Breakpoint 1, input_point (prompt_msg=0x4050b0 <__register_frame_info+4214960> "Enter the endpoint co-ordinates (x,y) : \n")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:43
+43	    printf("%s", prompt_msg);
++n
+44	    scanf("%f %f",&p.x, &p.y);
++n
+45	    return p;
++n
+46	}
++n
+input_polygon (p=0x61fbe8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:52
+52	    for(int i = 0;i < p->sides;i++)
++n
+54	        p->p[i] = input_point("Enter the endpoint co-ordinates  (x,y) : \n");   
++n
+
+Breakpoint 1, input_point (prompt_msg=0x4050b0 <__register_frame_info+4214960> "Enter the endpoint co-ordinates (x,y) : \n")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:43
+43	    printf("%s", prompt_msg);
++n
+44	    scanf("%f %f",&p.x, &p.y);
++n
+45	    return p;
++n
+46	}
++n
+input_polygon (p=0x61fbe8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:52
+52	    for(int i = 0;i < p->sides;i++)
++n
+54	        p->p[i] = input_point("Enter the endpoint co-ordinates  (x,y) : \n");   
++n
+
+Breakpoint 1, input_point (prompt_msg=0x4050b0 <__register_frame_info+4214960> "Enter the endpoint co-ordinates (x,y) : \n")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:43
+43	    printf("%s", prompt_msg);
++n
+44	    scanf("%f %f",&p.x, &p.y);
++n
+45	    return p;
++n
+46	}
++n
+input_polygon (p=0x61fbe8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:52
+52	    for(int i = 0;i < p->sides;i++)
++n
+54	        p->p[i] = input_point("Enter the endpoint co-ordinates  (x,y) : \n");   
++n
+
+Breakpoint 1, input_point (prompt_msg=0x4050b0 <__register_frame_info+4214960> "Enter the endpoint co-ordinates (x,y) : \n")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:43
+43	    printf("%s", prompt_msg);
++n
+44	    scanf("%f %f",&p.x, &p.y);
++n
+45	    return p;
++n
+46	}
++n
+input_polygon (p=0x61fbe8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:52
+52	    for(int i = 0;i < p->sides;i++)
++n
+54	        p->p[i] = input_point("Enter the endpoint co-ordinates  (x,y) : \n");   
++n
+
+Breakpoint 1, input_point (prompt_msg=0x4050b0 <__register_frame_info+4214960> "Enter the endpoint co-ordinates (x,y) : \n")
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:43
+43	    printf("%s", prompt_msg);
++n
+44	    scanf("%f %f",&p.x, &p.y);
++n
+45	    return p;
++n
+46	}
++n
+input_polygon (p=0x61fbe8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:52
+52	    for(int i = 0;i < p->sides;i++)
++n
+56	    return p->sides;
++n
+57	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:28
+28	    find_perimeter(&poly);
++n
+
+Breakpoint 3, find_perimeter (p=0x61fbe8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:73
+73	    p->perimeter = perimeter;
++n
+74	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem08.c:29
+29	    output(poly);
++n
+30	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x00401292 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+[Inferior 1 (process 25684) exited normally]
++n
+The program is not being run.
++n
+The program is not being run.
++n
+The program is not being run.
++n
+The program is not being run.
++n
+The program is not being run.
++finish
+The program is not being run.
++q
