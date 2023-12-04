@@ -30,3 +30,48 @@ No line 49 in the current file.
 Make breakpoint pending on future shared library load? (y or [n]) +1
 Undefined command: "1".  Try "help".
 +q
++b 49
+No line 49 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) Please answer y or [n].
+Make breakpoint pending on future shared library load? (y or [n]) Please answer y or [n].
+Make breakpoint pending on future shared library load? (y or [n]) Please answer y or [n].
+Make breakpoint pending on future shared library load? (y or [n]) +q
++b 48
+Breakpoint 1 at 0x40152f: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem07.c, line 48.
++finish
+The program is not being run.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03/./problem07.exe 
+[New Thread 5912.0xa60]
+[New Thread 5912.0x1c7c]
+
+Breakpoint 1, find_length (l=0x61ff0c)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem07.c:48
+48	    l->distance = sqrt(dx * dx + dy * dy);
++l->distance
+Undefined command: "l->distance".  Try "help".
++print l->distance
+$1 = 2.21590818e+033
++print l->p2.y
+$2 = 36
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) Program not restarted.
++n
+49	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem07.c:60
+60	    output(line);
++n
+61	    return 0;
++n
+62	}+n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 5912) exited normally]
++q

@@ -1,3 +1,46 @@
 +b 48
 No symbol table is loaded.  Use the "file" command.
 +q
++b 33
+Breakpoint 1 at 0x401565: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem05.c, line 33.
++b 48
+Breakpoint 2 at 0x4015f0: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem05.c, line 48.
++n
+The program is not being run.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03/./problem05.exe 
+[New Thread 25532.0x4704]
+[New Thread 25532.0x268c]
+
+Breakpoint 1, int_array (n=12, a=0x61feb8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem05.c:34
+34	}
++print a[0]
+$1 = 2
++print a[2]
+$2 = 4
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem05.c:17
+17	    erotosthenes_sieve(n,a);
++n
+
+Breakpoint 2, erotosthenes_sieve (n=12, a=0x61feb8)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem05.c:48
+48	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem05.c:18
+18	    output(n,a);
++n
+19	    return 0;
++n
+20	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 25532) exited normally]
++q

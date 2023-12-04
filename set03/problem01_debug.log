@@ -1,0 +1,43 @@
++b 32
+Breakpoint 1 at 0x4015b1: file c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem01.c, line 32.
++print distance
+No symbol "distance" in current context.
++r
+Starting program: c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03/./problem01.exe 
+[New Thread 12700.0x3514]
+[New Thread 12700.0x4718]
+
+Breakpoint 1, find_distance (x1=12, y1=24, x2=23, y2=36)
+    at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem01.c:32
+32	    return distance;
++print distance
+$1 = 16.27882
++print x2
+$2 = 23
++print x1
+$3 = 12
++print y2w
+No symbol "y2w" in current context.
++print y2
+$4 = 36
++print y1
+$5 = 24
++n
+33	}
++n
+main () at c:\Users\Aashish Sharma\OneDrive\Desktop\Introduction To C\Advanced\fpc-advanced-classroom-1st-year-assignment-xdDuge-1\set03\problem01.c:15
+15	    output(x1,y1,x2,y2,distance);
++nn
+Undefined command: "nn".  Try "help".
++n
+16	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 12700) exited normally]
++q
