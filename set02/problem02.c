@@ -2,14 +2,14 @@
 
 #include<stdio.h>
 
-int input_side();
-int check_scalene(int a, int b, int c);
+float input_side();
+int check_scalene(float a, float b, float c);
 void output(int isscalene);
 
 int main()
 
 {
-    int s1,s2,s3,t;
+    float s1,s2,s3,t;
     s1 = input_side();
     s2 = input_side();
     s3 = input_side();
@@ -17,15 +17,15 @@ int main()
     output(t);
 }
 
-int input_side()
+float input_side()
 {
-    int a;
+    float a;
     printf("Enter the first side of the triangle: \n");
-    scanf("%d",&a);
+    scanf("%f",&a);
     return a;
 }
 
-int check_scalene(int a, int b, int c)
+int check_scalene(float a, float b, float c)
 {
     if(a!=b && a!=c)
     {
